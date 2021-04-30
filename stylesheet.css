@@ -19,3 +19,67 @@ li {
 /*-------------------------------
             header
 -------------------------------*/
+.navbar{
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    color: #ffffff;
+  }
+  .dropdown-menu {
+    color: black;
+    background-color: gray;
+  }
+/*-------------------------------
+            top
+-------------------------------*/
+/*-------   carousel   -------*/
+/*  カルーセルの高さ  */
+#top .carousel-item {
+    height: 100vh;
+}
+.carousel-1{
+    background-image: url(./images/carousel_1_test.jpg);
+}
+.carousel-2{
+    background-image: url(./images/carousel_1.jpg);
+}
+.carousel-3{
+    background-image: url(./images/carousel_3.jpg);
+}
+.carousel-style {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  .carousel-style::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+  /* カルーセルテキストスタイル　*/
+.carousel-caption {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fs-carousel-text2{
+    font-size: 80px;
+}
+/*-------------------------------
+            ourstory
+-------------------------------*/
+.fs-ourstory1{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.fs-outstory2 {
+
+}
