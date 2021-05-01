@@ -166,13 +166,65 @@ li {
     width: 5%;
     margin: 0 auto;
 }
+.owl-item {
+    opacity: 0.3;
+    transition: 1s ease-out;
+  }
+  .owl-item.center {
+    opacity: 1;
+  }
+  
+  .owl-next {
+    margin: 0 100px !important;
+  }
+  .owl-prev {
+    margin: 0 100px !important;
+  }
+  .owl-item {
+    opacity: 0.3;
+    transition: 1s ease-out;
+  
+    &.center {
+      opacity: 1;
+    }
+  }
+  
+  .owl {
+    &-next {
+      margin: 0 100px !important;
+    }
+    &-prev {
+      margin: 0 100px !important;
+    }
+  }
 
-
-.item{
-    height: 200px;
-    padding: 20px;
-    background-color: green;
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
+.owl-carousel .owl-item img{
+    margin: 0 auto;
 }
+.sp-details{
+    border-radius: 2px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    padding: 30px 30px;
+    width: 30%;    
+}
+.sp-button-style {
+    display: inline-block;
+    font-size: 5pt; /* 文字サイズ */
+    text-align: center; /* 文字位置   */
+    cursor: pointer; /* カーソル   */
+    padding: 8px 12px; /* 余白       */
+    background: none; /* 背景色     */
+    color: red; /* 文字色     */
+    line-height: 1em; /* 1行の高さ  */
+    transition: 0.3s; /* なめらか変化 */
+    border: 2px solid red; /* 枠の指定 */
+    letter-spacing: 5px;
+  }
+  .carousel-button-style:hover {
+    color: #ffffff; /* 背景色     */
+    background: red; /* 文字色     */
+    border: 2px solid red; /* 枠の指定 */
+  }
