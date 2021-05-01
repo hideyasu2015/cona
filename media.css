@@ -1,26 +1,40 @@
 @media (max-width: 850px) {
-    
+    .sp-img{
+        margin-bottom: 20px;
+    }
+    .sp-details{
+       border-radius: 2px;
+       background-color: white;
+       position: static;
+       width: 50%;
+       margin: 0 auto;
+       padding: 10px 10px;
+
+   }
+    .fs-sp-detail1{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 768px) {
-      /* カルーセルテキストスタイル　*/
-/* .carousel-caption {
-    height: 500px;
+ 
+ 
+    
 }
- */
- .sp-img{
-     margin-bottom: 20px;
- }
- .sp-details{
-    border-radius: 10px;
-    background-color: white;
-    position: static;
-    width: 60%;
-    margin: 0 auto;
-    padding: 10px 10px;
-}
- .fs-sp-detail1{
-     font-size: 20px;
- }
+@media (max-width: 620px) {
+    .sp-details{
+        border-radius: 2px;
+        background-color: white;
+        position: static;
+        width: 60%;
+        margin: 0 auto;
+        padding: 10px 10px;
+    }
+    .fs-sp-detail1{
+        font-size: 15px;
+    }
+    .fs-sp-detail2{
+        font-size: 10px;
+    }
     
 }
