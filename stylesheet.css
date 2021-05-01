@@ -230,7 +230,6 @@ li {
     background: red; /* 文字色     */
     border: 2px solid red; /* 枠の指定 */
   }
-
 /*-------------------------------
             today's menu
 -------------------------------*/
@@ -258,7 +257,9 @@ li {
     font-weight: 400;
     margin: 10px 10px;
 }
-
+/*-------------------------------
+            Book
+-------------------------------*/
 
 .book-backimg{
     background-image: url(./images/backimg_ourstory_1280.jpg);
@@ -302,3 +303,73 @@ li {
     background: red; /* 文字色     */
     border: 2px solid red; /* 枠の指定 */
   }
+/*-------------------------------
+            ourchefs            
+-------------------------------*/
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin-in {
+  padding-right: 15px;
+  color: #000000;
+}
+.staff-img1{
+  background-image: url(./images/delivery_s1.jpg);
+}
+.staff-img2{
+    background-image: url(./images/delivery_s1.jpg);
+  
+}
+.staff-img3{
+    background-image: url(./images/delivery_s1.jpg);
+}
+.staff-img{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  height: 600px;
+  box-shadow: 5px 5px 20px 8px rgba(3, 8, 40, 0.3);
+}
+.chef-name{
+    color: #555555;
+    font-family: pt sans narrow,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.chef-amet{
+    color: #555555;
+    font-size: 15px;
+    font-family: pt sans narrow,sans-serif;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+.staff-img::after{
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0; 
+    transition: all .3s ease 0s;
+    width: 100%;
+}
+.social {
+    background-color: rgba(27, 27, 27, 0.6);
+    display: none;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+.icon-color{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+.staff-img:hover .social {
+    display: block;
+}
+
