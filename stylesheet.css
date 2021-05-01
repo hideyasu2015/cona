@@ -204,9 +204,7 @@ li {
 .sp-details{
     border-radius: 2px;
     background-color: white;
-
     margin-top: -100px;
-
     position: absolute;
     top: 50%;
     right: 0;
@@ -236,8 +234,27 @@ li {
 /*-------------------------------
             today's menu
 -------------------------------*/
-  .todaysmenu-icon{
+.todaysmenu-icon{
     border-radius: 50%;
     width: 130px;
     height: 130px;
+    box-shadow: 0 0 0 10px #ddd;
   }
+.menus-name{
+    font-size: 20px;
+    font-family: pt sans narrow,sans-serif;
+    font-weight: 700;
+}
+.menu-price{
+    font-size: 20px;
+    color: #ca3d26;
+    font-family: pt sans narrow,sans-serif;
+    font-weight: 700;
+}
+.menu-name{
+    font-size: 15px;
+    color: #1e1e1f;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    margin: 10px 10px;
+}
