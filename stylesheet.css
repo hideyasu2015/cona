@@ -1,5 +1,6 @@
 body {  
     font-family: 'Montserrat', sans-serif;
+    height: 10000px;
     }
 a {
     text-decoration: none;
@@ -76,10 +77,27 @@ li {
 /*-------------------------------
             ourstory
 -------------------------------*/
+.backimg-ourstory{
+    
+}
 .fs-ourstory1{
     margin-top: 150px;
     margin-bottom: 100px;
 }
 .fs-outstory2 {
 
+}
+.fs-ourstory3{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+/*-------------------------------
+            special
+-------------------------------*/
+.gray-backimg {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 600px;
+  }
+.special-img-small1{
+    width:400px;
 }
