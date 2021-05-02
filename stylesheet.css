@@ -1,6 +1,5 @@
 body {  
     font-family: 'PT Sans Narrow', sans-serif;
-    height: 7000px;
     }
 a {
     text-decoration: none;
@@ -138,7 +137,6 @@ li {
     margin-bottom: 150px;
     font-size: 80px;
 }
-
 /*-------------------------------
             special
 -------------------------------*/
@@ -146,7 +144,7 @@ li {
     height: 900px;
 }
 .special-img{
-    background-image: url(./images/backimg_special.png);
+    background-image: url(./images/backimg_special.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -169,34 +167,17 @@ li {
 .owl-item {
     opacity: 0.3;
     transition: 1s ease-out;
-  }
-  .owl-item.center {
+}
+.owl-item.center {
     opacity: 1;
-  }
+}
   
-  .owl-next {
+.owl-next {
     margin: 0 100px !important;
-  }
-  .owl-prev {
+}
+.owl-prev {
     margin: 0 100px !important;
-  }
-  .owl-item {
-    opacity: 0.3;
-    transition: 1s ease-out;
-  
-    &.center {
-      opacity: 1;
-    }
-  }
-  
-  .owl {
-    &-next {
-      margin: 0 100px !important;
-    }
-    &-prev {
-      margin: 0 100px !important;
-    }
-  }
+}
 
 .owl-carousel .owl-item img{
     margin: 0 auto;
@@ -372,11 +353,15 @@ li {
 .staff-img:hover .social {
     display: block;
 }
-
-
 /*-------------------------------
             latestnews
 -------------------------------*/
+.latestnews-img{
+    background-image: url(./images/backimg_latestnews.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .latest-gray-backimg {
     background-color: rgba(0, 0, 0, 0.4);
   }
@@ -385,4 +370,43 @@ li {
 }
 .card{
     border-radius: 0;;
+}
+/*-------------------------------
+            footer
+-------------------------------*/
+.footer-backimg{
+    background-image: url(./images/backimg_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-gray-backimg {
+    background-color: rgba(0, 0, 0, 0.8);
+ 
+}
+.fs-footer1{
+    font-family: lato,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #cacaca;
+}
+.fs-footer2{
+    font-family: lato,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ca3d26;
+}
+.fs-footer3{
+    font-family: lato,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ca3d26;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.footer-icon{
+    color: #cacaca;
+}
+.footer-top {
+    padding: 100px 100px;
+    border-bottom:1px solid #2b2c2d;
 }

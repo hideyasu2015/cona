@@ -1,3 +1,11 @@
+@media (max-width: 1000px) {
+ .footer-right-ul,.footer-left-ul{
+     justify-content: center !important;
+ }
+ 
+    
+}
+
 @media (max-width: 850px) {
     .sp-img{
         margin-bottom: 20px;
