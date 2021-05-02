@@ -314,14 +314,14 @@ li {
   color: #000000;
 }
 .staff-img1{
-  background-image: url(./images/delivery_s1.jpg);
+  background-image: url(./images/chef_1_640.jpg);
 }
 .staff-img2{
-    background-image: url(./images/delivery_s1.jpg);
+    background-image: url(./images/chef_2.jpg);
   
 }
 .staff-img3{
-    background-image: url(./images/delivery_s1.jpg);
+    background-image: url(./images/chef_3.jpg);
 }
 .staff-img{
   background-size: contain;
