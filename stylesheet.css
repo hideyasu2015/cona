@@ -1,6 +1,6 @@
 body {  
     font-family: 'PT Sans Narrow', sans-serif;
-    height: 10000px;
+    height: 7000px;
     }
 a {
     text-decoration: none;
@@ -373,3 +373,16 @@ li {
     display: block;
 }
 
+
+/*-------------------------------
+            latestnews
+-------------------------------*/
+.latest-gray-backimg {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+.autoplay img{
+    margin: 0 auto;
+}
+.card{
+    border-radius: 0;;
+}
